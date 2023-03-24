@@ -10,7 +10,7 @@ void HanoiTower(int n, char a, char b, char c) {
 	}
 }
 int main(void) {
-	int n = 8; //원판의 개수
+	int n = 4; //원판의 개수
 
 	HanoiTower(n, 'A', 'B', 'C');
 	return 0;
